@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr"> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="same-origin">
+  <title>Mandrake — GTA VI para PlayStation 5 | Pagamento Pix</title>
+  <meta name="description" content="Conheça GTA VI para PlayStation 5 na Mandrake. Consulte a oferta, veja o trailer e acesse as instruções para pagamento via Pix e atendimento da loja.">
+  <link rel="canonical" href="index.html">
+  <meta name="robots" content="index,follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="_astro/Base.BsA8G0fH.css">
+  <link rel="stylesheet" href="_astro/index.BJXOCvM2.css">
+
+  <style>
+    /* Estilos do Modal de Pagamento Pix */
+    .pix-modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(5px);
+      z-index: 999999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+    }
+    .pix-modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+    .pix-modal-content {
+      background: #121214;
+      border: 1px solid #27272a;
+      border-radius: 16px;
+      max-width: 480px;
+      width: 100%;
+      padding: 28px;
+      position: relative;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+      color: #fff;
+    }
+    .pix-modal-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: transparent;
+      border: none;
+      color: #a1a1aa;
+      font-size: 24px;
+      cursor: pointer;
+      line-height: 1;
+      padding: 4px 8px;
+    }
+    .pix-modal-close:hover {
+      color: #fff;
+    }
+    .pix-card-modal {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 16px;
+    }
+    .pix-card-modal .qr {
+      background: #fff;
+      padding: 12px;
+      border-radius: 12px;
+      max-width: 220px;
+      height: auto;
+    }
+    .pix-card-modal textarea {
+      width: 100%;
+      background: #18181b;
+      border: 1px solid #3f3f46;
+      color: #a1a1aa;
+      border-radius: 8px;
+      padding: 8px;
+      font-size: 12px;
+      resize: none;
+      height: 60px;
+    }
+  </style>
+</head> 
+<body class="min-h-screen bg-background text-foreground antialiased">
+
+  <div class="store" data-astro-cid-lcdefpme> 
+    <header data-astro-cid-lcdefpme>
+      <a class="brand" href="index.html" data-astro-cid-lcdefpme>MANDRAKE<span data-astro-cid-lcdefpme>GAMES</span></a>
+      <nav data-astro-cid-lcdefpme>
+        <a href="#sobre" data-astro-cid-lcdefpme>O jogo</a>
+        <a href="javascript:void(0)" onclick="openPixModal()" data-astro-cid-lcdefpme>Pagamento</a>
+        <a href="#contato" data-astro-cid-lcdefpme>Atendimento</a>
+      </nav>
+      <span class="platform" data-astro-cid-lcdefpme>PLAYSTATION 5</span>
+    </header> 
+
+    <main data-astro-cid-lcdefpme> 
+      <section class="hero" id="intro" data-astro-cid-lcdefpme> 
+        <img class="hero-image" src="uploads/herokeyart.jpg" alt="Vista de Vice City em Grand Theft Auto VI" fetchpriority="high" data-astro-cid-lcdefpme> 
+        <div class="hero-shade" data-astro-cid-lcdefpme></div> 
+        <div class="hero-copy" data-astro-cid-lcdefpme>
+          <span class="eyebrow" data-astro-cid-lcdefpme>VICE CITY ESTÁ CHAMANDO</span>
+          <img src="uploads/gta6-logo.png" alt="Grand Theft Auto VI" width="310" height="240" style="width: min(310px, 80%); height: auto; margin: 28px 0;" data-astro-cid-lcdefpme>
+          <h1 data-astro-cid-lcdefpme>Sua próxima grande história começa em Vice City.</h1>
+          <p data-astro-cid-lcdefpme>
+            Entre no universo de GTA VI com a Mandrake.<br data-astro-cid-lcdefpme>
+            <strong data-astro-cid-lcdefpme>Ultimate Edition · PS5 | VERSÃO DIGITAL</strong><br data-astro-cid-lcdefpme>
+            Quer saber como funciona? Converse com a loja e tire suas dúvidas antes de comprar.
+          </p>
+          <div class="actions" data-astro-cid-lcdefpme>
+            <button class="button" onclick="openPixModal()" type="button" data-astro-cid-lcdefpme>Quero minha versão digital ↗</button>
+            <a class="trailer" href="https://www.youtube.com/watch?v=QdBZY2fkU-0" target="_blank" rel="noopener noreferrer" data-astro-cid-lcdefpme>▷ Assistir ao trailer</a>
+          </div>
+        </div> 
+
+        <aside class="offer" data-astro-cid-lcdefpme>
+          <div class="offer-heading" data-astro-cid-lcdefpme>
+            <img src="uploads/playstation-5.svg" alt="PlayStation 5" width="130" data-astro-cid-lcdefpme>
+            <span class="offer-label" data-astro-cid-lcdefpme>OFERTA MANDRAKE</span>
+          </div>
+          <img class="offer-art" src="uploads/vice-city-09-thumb.jpg" alt="Vice City em GTA VI" data-astro-cid-lcdefpme>
+          <div class="offer-body" data-astro-cid-lcdefpme>
+            <span class="eyebrow" data-astro-cid-lcdefpme>SUA ESCOLHA PARA JOGAR</span>
+            <div class="selected-platform" data-astro-cid-lcdefpme>✓ PlayStation 5</div>
+            <h2 data-astro-cid-lcdefpme>Grand Theft Auto VI<br data-astro-cid-lcdefpme>Ultimate Edition</h2>
+            <p class="offer-description" data-astro-cid-lcdefpme>
+              PS5 | VERSÃO DIGITAL · Mídia digital<br data-astro-cid-lcdefpme>
+              Sua oferta em um só lugar, com atendimento direto da Mandrake para orientar sua compra.
+            </p>
+            <div class="offer-total" data-astro-cid-lcdefpme>
+              <span data-astro-cid-lcdefpme>Pagamento à vista<br data-astro-cid-lcdefpme><small data-astro-cid-lcdefpme>via Pix</small></span>
+              <strong class="price" data-astro-cid-lcdefpme>R$ 200<span data-astro-cid-lcdefpme>,00</span></strong>
+            </div>
+            <button class="button" onclick="openPixModal()" type="button" style="width:100%; border:none; cursor:pointer;" data-astro-cid-lcdefpme>Quero comprar com Pix →</button>
+            <a class="offer-support" href="https://wa.me/5541988343733?text=Ol%C3%A1%2C%20Mandrake!%20Quero%20saber%20mais%20sobre%20GTA%20VI%20para%20PS5%20e%20as%20condi%C3%A7%C3%B5es%20de%20entrega." target="_blank" rel="noopener noreferrer" data-astro-cid-lcdefpme>Tirar dúvidas pelo WhatsApp ↗</a>
+          </div>
+        </aside> 
+      </section> 
+
+      <div class="strip" data-astro-cid-lcdefpme>
+        <span data-astro-cid-lcdefpme>MANDRAKE GAMES</span>
+        <span data-astro-cid-lcdefpme>EXCLUSIVO NESTA OFERTA: PS5</span>
+        <span data-astro-cid-lcdefpme>PAGAMENTO VIA PIX</span>
+      </div> 
+
+      <section class="mandrake-gallery" aria-label="Imagens de GTA VI" data-astro-cid-lcdefpme>
+        <img src="uploads/vice-city-09-thumb.jpg" alt="Paisagem de Vice City" loading="lazy" data-astro-cid-lcdefpme>
+        <img src="uploads/lucia-caminos-02-thumb.jpg" alt="Lucia Caminos em GTA VI" loading="lazy" data-astro-cid-lcdefpme>
+        <img src="uploads/jason-duval-05-thumb.jpg" alt="Jason Duval em GTA VI" loading="lazy" data-astro-cid-lcdefpme>
+        <img src="uploads/ambrosia-01-thumb.jpg" alt="Ambrosia em Leonida" loading="lazy" data-astro-cid-lcdefpme>
+      </section>
+
+      <section id="sobre" class="about" data-astro-cid-lcdefpme>
+        <div data-astro-cid-lcdefpme>
+          <span class="eyebrow" data-astro-cid-lcdefpme>BEM-VINDO A LEONIDA</span>
+          <h2 data-astro-cid-lcdefpme>Do sol de Vice City<br data-astro-cid-lcdefpme>ao lado mais intenso<br data-astro-cid-lcdefpme>de uma nova história.</h2>
+        </div>
+        <div data-astro-cid-lcdefpme>
+          <p data-astro-cid-lcdefpme>Grand Theft Auto VI apresenta Jason e Lucia no estado fictício de Leonida. Quando um serviço simples dá errado, os dois precisam depender um do outro para sobreviver em meio a uma conspiração criminosa.</p>
+          <p data-astro-cid-lcdefpme>A Mandrake apresenta a <strong data-astro-cid-lcdefpme>Ultimate Edition para PlayStation 5 | VERSÃO DIGITAL</strong>. Prefere esclarecer tudo primeiro? Fale com a loja sobre disponibilidade, conteúdo da edição, forma de acesso e prazo de entrega. Assim você decide com todas as informações em mãos.</p>
+          <a class="text-link" href="https://wa.me/5541988343733?text=Ol%C3%A1%2C%20Mandrake!%20Tenho%20interesse%20no%20GTA%20VI%20Ultimate%20Edition%20para%20PS5%20digital.%20Pode%20explicar%20a%20disponibilidade%2C%20o%20conte%C3%BAdo%20da%20edi%C3%A7%C3%A3o%2C%20a%20forma%20de%20acesso%20e%20o%20prazo%20de%20entrega%3F" target="_blank" rel="noopener noreferrer" data-astro-cid-lcdefpme>Quero conhecer a oferta pelo WhatsApp ↗</a>
+          <img src="uploads/about-img.png" srcset="uploads/about-img-p-500.png 500w, uploads/about-img.png 679w" sizes="(max-width: 760px) 90vw, 40vw" alt="Arte de Grand Theft Auto VI" loading="lazy" style="width:100%;height:auto;margin-top:28px;" data-astro-cid-lcdefpme>
+        </div>
+      </section> 
+
+      <section class="contact" id="contato" data-astro-cid-lcdefpme>
+        <div data-astro-cid-lcdefpme>
+          <span class="eyebrow" data-astro-cid-lcdefpme>ATENDIMENTO MANDRAKE</span>
+          <h2 data-astro-cid-lcdefpme>Gostou da oferta?<br data-astro-cid-lcdefpme>Vamos tirar suas dúvidas.</h2>
+          <p data-astro-cid-lcdefpme>Você não precisa decidir com uma pergunta sem resposta. Fale diretamente com a Mandrake sobre a Ultimate Edition, compatibilidade com PS5, acesso à mídia digital e entrega.</p>
+          <p data-astro-cid-lcdefpme><strong data-astro-cid-lcdefpme>Já decidiu?</strong> Diga “Quero a Ultimate Edition para PS5” na mensagem. Já realizou o Pix? Informe o identificador da transferência para a loja conferir seu pedido.</p>
+        </div>
+        <div class="whatsapp-contact" data-astro-cid-lcdefpme>
+          <h3 data-astro-cid-lcdefpme>Seu próximo passo é simples.</h3>
+          <p data-astro-cid-lcdefpme>Conte o que você precisa e continue a conversa com a loja no WhatsApp.</p>
+          <label for="whatsapp-name" data-astro-cid-lcdefpme>Seu nome</label>
+          <input id="whatsapp-name" type="text" autocomplete="name" placeholder="Como podemos chamar você?" data-astro-cid-lcdefpme>
+          <label for="whatsapp-question" data-astro-cid-lcdefpme>Mensagem</label>
+          <textarea id="whatsapp-question" rows="4" placeholder="Escreva sua dúvida sobre o jogo ou seu pedido" data-astro-cid-lcdefpme></textarea>
+          <a id="whatsapp-send" class="button" href="https://wa.me/5541988343733?text=Ol%C3%A1%2C%20Mandrake!%20Tenho%20uma%20d%C3%BAvida%20sobre%20GTA%20VI%20para%20PS5." target="_blank" rel="noopener noreferrer" data-astro-cid-lcdefpme>Conversar com a Mandrake ↗</a>
+          <p data-astro-cid-lcdefpme>Sua mensagem será aberta no WhatsApp para você enviar.</p>
+          <a href="https://wa.me/5541988343733" target="_blank" rel="noopener noreferrer" data-astro-cid-lcdefpme>(41) 98834-3733</a>
+        </div>
+      </section> 
+    </main>
+
+    <footer data-astro-cid-lcdefpme>
+      <a href="index.html" class="brand" data-astro-cid-lcdefpme>MANDRAKE<span data-astro-cid-lcdefpme>GAMES</span></a>
+      <p data-astro-cid-lcdefpme>© 2026 Mandrake. GTA e PlayStation são marcas de seus respectivos titulares.</p>
+      <a href="#intro" data-astro-cid-lcdefpme>Voltar ao topo ↑</a>
+    </footer> 
+
+    <a class="whatsapp-float" href="https://wa.me/5541988343733?text=Ol%C3%A1%2C%20Mandrake!%20Preciso%20de%20ajuda%20com%20GTA%20VI%20para%20PS5." target="_blank" rel="noopener noreferrer" aria-label="Falar com a Mandrake no WhatsApp" data-astro-cid-lcdefpme>
+      <svg viewBox="0 0 24 24" width="27" height="27" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" data-astro-cid-lcdefpme>
+        <path d="M21 11.5a9 9 0 0 1-13.5 7.8L3 21l1.5-4.6A9 9 0 1 1 21 11.5Z" data-astro-cid-lcdefpme></path>
+        <path d="M8 7c0 5 4 9 9 9l1-3-3-1-1 1c-2-1-3-2-4-4l1-1-1-2Z" data-astro-cid-lcdefpme></path>
+      </svg>
+      <span data-astro-cid-lcdefpme>Tire suas dúvidas</span>
+    </a> 
+  </div>
+
+  <!-- Modal Interativo do Pix -->
+  <div id="pixModal" class="pix-modal-overlay" onclick="closePixModal(event)">
+    <div class="pix-modal-content" onclick="event.stopPropagation()">
+      <button class="pix-modal-close" onclick="closePixModal()">&times;</button>
+      <div class="pix-card-modal">
+        <div>
+          <span style="color: #a1a1aa; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">PAGAMENTO DIRETO VIA PIX</span>
+          <h3 style="font-size: 20px; font-weight: 700; margin-top: 4px;">Grand Theft Auto VI - Ultimate Edition</h3>
+        </div>
+        <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=280x280&amp;margin=16&amp;data=00020126330014br.gov.bcb.pix0111106800239505204000053039865406200.005802BR5908MANDRAKE6006BRASIL62070503***63046A85" alt="QR Code Pix">
+        <strong style="font-size: 28px; color: #22c55e;">R$ 200,00</strong>
+        <p style="font-size: 14px; color: #d4d4d8;">Chave Pix: <strong>10680023950</strong></p>
+        <textarea id="pix-code" readonly>00020126330014br.gov.bcb.pix0111106800239505204000053039865406200.005802BR5908MANDRAKE6006BRASIL62070503***63046A85</textarea>
+        <button id="copy-pix" class="button" type="button" style="width: 100%;">Copiar Pix Copia e Cola</button>
+        <p id="copy-status" style="font-size: 12px; color: #a1a1aa;">Confira o destinatário no aplicativo do seu banco.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openPixModal() {
+      document.getElementById('pixModal').classList.add('active');
+    }
+    function closePixModal(event) {
+      document.getElementById('pixModal').classList.remove('active');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelector('#copy-pix')?.addEventListener('click', async () => {
+        let e = document.querySelector('#pix-code'),
+            t = document.querySelector('#copy-status');
+        if (e && t) {
+          try {
+            await navigator.clipboard.writeText(e.value);
+            t.textContent = 'Código Pix copiado! Cole no aplicativo do seu banco.';
+            t.style.color = '#22c55e';
+          } catch {
+            e.select();
+            t.textContent = 'Selecione e copie o código acima para usar no seu banco.';
+          }
+        }
+      });
+    });
+  </script>
+</body> 
+</html>
